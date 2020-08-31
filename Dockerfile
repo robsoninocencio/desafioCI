@@ -20,3 +20,7 @@ FROM scratch
 COPY --from=builder /go/bin/soma /go/bin/soma
 # Run the soma binary.
 ENTRYPOINT ["/go/bin/soma"]
+
+# docker build . -t robsoni/img-go-soma
+# docker run robsoni/img-go-soma
+# docker push robsoni/img-go-soma

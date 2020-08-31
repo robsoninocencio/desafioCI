@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestSoma(t *testing.T){
-  resultado := Soma(5,5)
+  resultado := Soma(5,6)
   if resultado != 10{
     t.Errorf("Resultado esperado: %d, Resultado obtido: %d", 10, resultado)
   }
